@@ -1,0 +1,76 @@
+.Circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.Panel {
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 2px;
+    border: 2px solid black;
+}
+
+.PanelSlider {
+    display: flex;
+    gap: 2px;
+    flex-direction: row;
+    flex-grow: 2;
+    justify-content: center;
+}
+
+.PanelButtons {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;  
+}
+
+.Slider {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.WindowDisplay {
+    background-image: url("/window_closeup.png");
+    background-color: white;
+    height: 350px;
+    width: 300px;
+}
+
+.Good {
+   background-color: green;
+   color: white;
+   border: 1px solid white;
+   padding-right: 5px;
+   padding-left: 5px;
+   border-radius: 10px;
+   font-size: small;
+}
+
+.Moderate {
+    background-color: rgba(255, 255, 0, 0.892);
+    color: black;
+    border: 1px solid black;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    font-size: small;
+ }
+
+
+.Poor {
+    background-color: rgba(255, 77, 0, 0.744);
+    color: white;
+    border: 1px solid white;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    font-size: small;
+ }
