@@ -1,4 +1,5 @@
 import AppControl from './components/AppControl.jsx'
+import AppRules from './components/AppRules.jsx';
 import Display from './components/Display.jsx';
 import Panel from './components/Panel.jsx'
 import styles from "./components/styles.module.css"
@@ -21,7 +22,14 @@ function App(){
       <div className="col">
           <Panel></Panel>
         </div>
-
+      </div>
+      <div className='row'>
+        <div className='col'>
+          <AppControl></AppControl>
+        </div>
+        <div className='col'>
+          <AppRules></AppRules>
+        </div>
       </div>
     </div>
   </>;

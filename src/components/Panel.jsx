@@ -1,4 +1,4 @@
-import Button from "./Button";
+import ButtonPanel from "./ButtonPanel";
 import Slider from "./Slider";
 import styles from "./styles.module.css"
 
@@ -8,11 +8,11 @@ function Panel(){
             <div className={styles.PanelSlider}>
                 <div className={styles.Circle} style={{backgroundColor: "black"}}></div>
                 <Slider></Slider>
-                <div className={styles.Circle} style={{backgroundColor: "lightcyan"}}></div>
+                <div className={styles.Circle} style={{ border: "2px solid black"}}></div>
             </div>
             <div className={styles.PanelButton}>
-                <Button text={"privacy"}></Button>
-                <Button text={"display"}></Button>
+                <ButtonPanel text={"privacy"}></ButtonPanel>
+                <ButtonPanel text={"display"}></ButtonPanel>
             </div>
         </div>
     </>;
